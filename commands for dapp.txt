@@ -1,0 +1,81 @@
+----- Truffle Suit --------
+
+######## Installation
+
+sudo npm install truffle -g
+# sudo npm install truffle -g --unsafe-perm=true --allow-root (if previous doesnt work)
+# Npm-global should have uniform ownership 
+sudo chown -R loonycorn/Users/loonycorn/npm-global/
+
+
+# NPM Global modules
+PATH="/Users/loonycorn/npm-global/bin:${PATH}"
+export PATH
+
+
+######## Deployment
+
+# To use truffle command add npm global directory in bash profile
+truffle init
+
+#after adding codes in contract and migration folder run
+
+#afer adding test files
+truffle test --network ganache
+
+# To deploy contract, observe that we have build file after this 
+truffle migrate --network ganache
+
+
+######## Front End with React
+
+# Install react biler plate app
+npm install -g create-react-app
+
+create-react-app demo-folder
+
+cd demo-folder
+npm start
+
+# Add web3.js for web3 provider
+# lottery.js for ABI and contract address
+
+
+
+######## Front End with Drizzle
+
+create-react-app client
+
+cd client/src
+
+ln -s ../../build/contracts contracts
+
+cd ..
+
+npm start
+
+
+
+
+
+
+
+---------- DApps -----------
+
+npm install -g create-react-app
+
+create-react-app demo-folder
+
+cd demo-folder
+npm start
+
+## Change src/components App.js and package.jsom
+
+npm install semantic-ui-react --save
+
+
+
+
+
+
+
