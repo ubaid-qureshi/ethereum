@@ -1,0 +1,96 @@
+=============== Feb 28, 2019 (IST) ===============
+12:33:22.328332 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:33:22.331093 db@open opening
+12:33:22.336926 version@stat F·[] S·0B[] Sc·[]
+12:33:22.337347 db@janitor F·2 G·0
+12:33:22.337426 db@open done T·6.287791ms
+=============== Feb 28, 2019 (IST) ===============
+12:36:57.374953 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:36:57.376556 version@stat F·[] S·0B[] Sc·[]
+12:36:57.376614 db@open opening
+12:36:57.376759 journal@recovery F·1
+12:36:57.382020 journal@recovery recovering @1
+12:36:57.383728 memdb@flush created L0@2 N·9 S·553B "H\xb0R..\x15S\xc1,v3":"r\x00\x00..\x15S\xc1,v5"
+12:36:57.388374 version@stat F·[1] S·553B[553B] Sc·[0.25]
+12:36:57.391351 db@janitor F·3 G·0
+12:36:57.391416 db@open done T·14.774627ms
+12:39:51.275950 db@close closing
+12:39:51.276508 db@close done T·549.32µs
+=============== Feb 28, 2019 (IST) ===============
+12:41:44.088628 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:41:44.089014 version@stat F·[1] S·553B[553B] Sc·[0.25]
+12:41:44.089053 db@open opening
+12:41:44.089152 journal@recovery F·1
+12:41:44.091935 journal@recovery recovering @3
+12:41:44.093622 memdb@flush created L0@5 N·2 S·241B "Dat..ion,v11":"Las..der,v12"
+12:41:44.096862 version@stat F·[2] S·794B[794B] Sc·[0.50]
+12:41:44.099916 db@janitor F·4 G·0
+12:41:44.099980 db@open done T·10.901371ms
+13:59:42.241714 db@close closing
+13:59:42.243059 db@close done T·1.339563ms
+=============== Feb 28, 2019 (IST) ===============
+14:56:13.017039 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:56:13.019175 version@stat F·[2] S·794B[794B] Sc·[0.50]
+14:56:13.019245 db@open opening
+14:56:13.019370 journal@recovery F·1
+14:56:13.022198 journal@recovery recovering @6
+14:56:13.025425 memdb@flush created L0@8 N·118 S·5KiB "\x045b..\xa3*\x96,v129":"\xde:\xdc..\xbfT1,v128"
+14:56:13.029001 version@stat F·[3] S·6KiB[6KiB] Sc·[0.75]
+14:56:13.034307 db@janitor F·5 G·0
+14:56:13.034399 db@open done T·15.128633ms
+14:56:34.831382 db@close closing
+14:56:34.831643 db@close done T·256.809µs
+=============== Feb 28, 2019 (IST) ===============
+14:56:38.605226 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:56:38.605593 version@stat F·[3] S·6KiB[6KiB] Sc·[0.75]
+14:56:38.605621 db@open opening
+14:56:38.605702 journal@recovery F·1
+14:56:38.608595 journal@recovery recovering @9
+14:56:38.610430 memdb@flush created L0@11 N·2 S·241B "Dat..ion,v133":"Las..der,v134"
+14:56:38.613664 version@stat F·[4] S·6KiB[6KiB] Sc·[1.00]
+14:56:38.616843 db@janitor F·6 G·0
+14:56:38.616928 db@open done T·11.288279ms
+14:56:38.617018 table@compaction L0·4 -> L1·0 S·6KiB Q·135
+14:56:38.619529 table@build created L1@14 N·91 S·5KiB "\x045b..\xa3*\x96,v129":"\xde:\xdc..\xbfT1,v128"
+14:56:38.619623 version@stat F·[0 1] S·5KiB[0B 5KiB] Sc·[0.00 0.00]
+14:56:38.619871 table@compaction committed F-3 S-1KiB Ke·0 D·40 T·2.736894ms
+14:56:38.620071 table@remove removed @11
+14:56:38.620227 table@remove removed @8
+14:56:38.620380 table@remove removed @5
+14:56:38.620520 table@remove removed @2
+14:56:58.527251 db@close closing
+14:56:58.527760 db@close done T·504.755µs
+=============== Feb 28, 2019 (IST) ===============
+14:57:29.263832 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:57:29.264189 version@stat F·[0 1] S·5KiB[0B 5KiB] Sc·[0.00 0.00]
+14:57:29.264217 db@open opening
+14:57:29.264297 journal@recovery F·1
+14:57:29.267299 journal@recovery recovering @12
+14:57:29.268937 memdb@flush created L0@15 N·2 S·241B "Dat..ion,v136":"Las..der,v137"
+14:57:29.272168 version@stat F·[1 1] S·5KiB[241B 5KiB] Sc·[0.25 0.00]
+14:57:29.274631 db@janitor F·4 G·0
+14:57:29.274685 db@open done T·10.44499ms
+15:03:49.290300 db@close closing
+15:03:49.291459 db@close done T·1.157362ms
+=============== Feb 28, 2019 (IST) ===============
+15:04:45.228583 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:04:45.230160 version@stat F·[1 1] S·5KiB[241B 5KiB] Sc·[0.25 0.00]
+15:04:45.230213 db@open opening
+15:04:45.230375 journal@recovery F·1
+15:04:45.233764 journal@recovery recovering @16
+15:04:45.235641 memdb@flush created L0@18 N·2 S·241B "Dat..ion,v139":"Las..der,v140"
+15:04:45.239385 version@stat F·[2 1] S·5KiB[482B 5KiB] Sc·[0.50 0.00]
+15:04:45.242452 db@janitor F·5 G·0
+15:04:45.242514 db@open done T·12.273537ms
+15:06:42.287278 db@close closing
+15:06:42.288775 db@close done T·1.494455ms
+=============== Feb 28, 2019 (IST) ===============
+15:08:09.486255 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:08:09.488106 version@stat F·[2 1] S·5KiB[482B 5KiB] Sc·[0.50 0.00]
+15:08:09.488165 db@open opening
+15:08:09.488312 journal@recovery F·1
+15:08:09.491617 journal@recovery recovering @19
+15:08:09.493495 memdb@flush created L0@21 N·2 S·241B "Dat..ion,v142":"Las..der,v143"
+15:08:09.497261 version@stat F·[3 1] S·5KiB[723B 5KiB] Sc·[0.75 0.00]
+15:08:09.500224 db@janitor F·6 G·0
+15:08:09.500284 db@open done T·12.092248ms

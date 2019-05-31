@@ -1,0 +1,2 @@
+admin.nodeInfo
+eth.getBalance(eth.accounts[0])
