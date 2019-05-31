@@ -1,0 +1,7 @@
+Follow these instructions:
+https://techbrij.com/web-ui-smart-contract-ethereum-dapp-part-4
+
+One minor change:
+## Run this before installing truffle-contract
+xcode-select --install
+npm install truffle-contract --save-dev

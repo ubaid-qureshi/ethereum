@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Voting dApp</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+ <div class="container">
+<h1>Voting dApp</h1>
+<div>
+<label for="choice" class="col-lg-2 control-label">Name</label>
+ <select id="choice">
+  <option value="Beer">Beer</option>
+  <option value="Wine">Wine</option>
+  <option value="Rum">Rum</option>
+</select>
+<button id="buttonSubmit">Submit Vote</button>
+</div>
+<button id="buttonMessage">Get Message</button>
+ 
+<div id="output"></div>
+<div id="errorHolder"></div>
+ 
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
